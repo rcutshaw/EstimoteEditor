@@ -10,6 +10,7 @@
 		AFB8C0671865FE87009D9411 /* CBXpcConnection+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB8C0661865FE87009D9411 /* CBXpcConnection+Swizzled.m */; };
 		AFB8C06A18661611009D9411 /* ESTBeacon+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB8C06918661611009D9411 /* ESTBeacon+Swizzled.m */; };
 		AFB8C06D18662713009D9411 /* ETBluetoothMath+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB8C06C18662713009D9411 /* ETBluetoothMath+Swizzled.m */; };
+		AFB8C07018662CFC009D9411 /* TI_aes.c in Sources */ = {isa = PBXBuildFile; fileRef = AFB8C06E18662CFC009D9411 /* TI_aes.c */; };
 		E10877AD1833D08100ECD3B3 /* EEPowerLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10877AC1833D08100ECD3B3 /* EEPowerLevelViewController.m */; };
 		E10877B21833DECE00ECD3B3 /* EEProximityView.m in Sources */ = {isa = PBXBuildFile; fileRef = E10877B11833DECE00ECD3B3 /* EEProximityView.m */; };
 		E17C99A118510F0100B0D0F0 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C99A018510F0100B0D0F0 /* libEstimoteSDK.a */; };
@@ -34,6 +35,8 @@
 		AFB8C06918661611009D9411 /* ESTBeacon+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ESTBeacon+Swizzled.m"; sourceTree = "<group>"; };
 		AFB8C06B18662713009D9411 /* ETBluetoothMath+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ETBluetoothMath+Swizzled.h"; sourceTree = "<group>"; };
 		AFB8C06C18662713009D9411 /* ETBluetoothMath+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ETBluetoothMath+Swizzled.m"; sourceTree = "<group>"; };
+		AFB8C06E18662CFC009D9411 /* TI_aes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TI_aes.c; sourceTree = "<group>"; };
+		AFB8C06F18662CFC009D9411 /* TI_aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TI_aes.h; sourceTree = "<group>"; };
 		E10877AB1833D08100ECD3B3 /* EEPowerLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPowerLevelViewController.h; sourceTree = "<group>"; };
 		E10877AC1833D08100ECD3B3 /* EEPowerLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPowerLevelViewController.m; sourceTree = "<group>"; };
 		E10877B01833DECE00ECD3B3 /* EEProximityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEProximityView.h; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 		E1F1248218338F2700BE137D /* Estimote Editor */ = {
 			isa = PBXGroup;
 			children = (
+				AFB8C06E18662CFC009D9411 /* TI_aes.c */,
+				AFB8C06F18662CFC009D9411 /* TI_aes.h */,
 				E10877AE1833DEB800ECD3B3 /* Views */,
 				E1F124AB18338F5900BE137D /* ViewControllers */,
 				E1F1248B18338F2700BE137D /* EEAppDelegate.h */,
@@ -261,6 +266,7 @@
 			files = (
 				AFB8C06D18662713009D9411 /* ETBluetoothMath+Swizzled.m in Sources */,
 				E10877B21833DECE00ECD3B3 /* EEProximityView.m in Sources */,
+				AFB8C07018662CFC009D9411 /* TI_aes.c in Sources */,
 				E10877AD1833D08100ECD3B3 /* EEPowerLevelViewController.m in Sources */,
 				E1F1248D18338F2700BE137D /* EEAppDelegate.m in Sources */,
 				E1F124AF18338F6F00BE137D /* EETableViewController.m in Sources */,
