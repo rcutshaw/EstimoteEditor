@@ -6,6 +6,8 @@
 //  Copyright (c) 2013 Yoann Gini. All rights reserved.
 //
 
+#import "CBXpcConnection+Swizzled.h"
+
 #import "EEAppDelegate.h"
 #import "EETableViewController.h"
 

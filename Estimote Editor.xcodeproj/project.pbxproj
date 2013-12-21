@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFB8C0671865FE87009D9411 /* CBXpcConnection+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB8C0661865FE87009D9411 /* CBXpcConnection+Swizzled.m */; };
 		E10877AD1833D08100ECD3B3 /* EEPowerLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E10877AC1833D08100ECD3B3 /* EEPowerLevelViewController.m */; };
 		E10877B21833DECE00ECD3B3 /* EEProximityView.m in Sources */ = {isa = PBXBuildFile; fileRef = E10877B11833DECE00ECD3B3 /* EEProximityView.m */; };
 		E17C99A118510F0100B0D0F0 /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E17C99A018510F0100B0D0F0 /* libEstimoteSDK.a */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AFB8C0651865FE87009D9411 /* CBXpcConnection+Swizzled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBXpcConnection+Swizzled.h"; sourceTree = "<group>"; };
+		AFB8C0661865FE87009D9411 /* CBXpcConnection+Swizzled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBXpcConnection+Swizzled.m"; sourceTree = "<group>"; };
 		E10877AB1833D08100ECD3B3 /* EEPowerLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEPowerLevelViewController.h; sourceTree = "<group>"; };
 		E10877AC1833D08100ECD3B3 /* EEPowerLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEPowerLevelViewController.m; sourceTree = "<group>"; };
 		E10877B01833DECE00ECD3B3 /* EEProximityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEProximityView.h; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 				E1F1248C18338F2700BE137D /* EEAppDelegate.m */,
 				E1F1248E18338F2700BE137D /* Images.xcassets */,
 				E1F1248318338F2700BE137D /* Supporting Files */,
+				AFB8C0651865FE87009D9411 /* CBXpcConnection+Swizzled.h */,
+				AFB8C0661865FE87009D9411 /* CBXpcConnection+Swizzled.m */,
 			);
 			path = "Estimote Editor";
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 				E10877AD1833D08100ECD3B3 /* EEPowerLevelViewController.m in Sources */,
 				E1F1248D18338F2700BE137D /* EEAppDelegate.m in Sources */,
 				E1F124AF18338F6F00BE137D /* EETableViewController.m in Sources */,
+				AFB8C0671865FE87009D9411 /* CBXpcConnection+Swizzled.m in Sources */,
 				E1F1248918338F2700BE137D /* main.m in Sources */,
 				E1F124C0183392C600BE137D /* EEDetailViewController.m in Sources */,
 			);
