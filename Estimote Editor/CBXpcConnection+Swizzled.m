@@ -1,9 +1,8 @@
 //
-//  NSObject+Swizzled.m
+//  CBXpcConnection+Swizzled.m
 //  Estimote Editor
 //
 //  Created by Sandeep Mistry on 12/21/2013.
-//  Copyright (c) 2013 Yoann Gini. All rights reserved.
 //
 
 #import <objc/runtime.h>
